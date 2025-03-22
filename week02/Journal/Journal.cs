@@ -5,7 +5,8 @@ using System.IO;
 public class Journal
 {
     public List<Entry> Entries = new List<Entry>(); // List to store journal entries
-    private Random random = new Random(); // Random number generator
+
+    private Random random = new Random(); // Random number generator (i got this code from youtube C#learning for beginners)
     private List<string> prompts = new List<string>
     {
         "Who was the most interesting person I interacted with today?",
@@ -31,7 +32,7 @@ public class Journal
 
     public void SaveToFile(string filename)
     {
-        using (StreamWriter writer = new StreamWriter(filename))
+        using (StreamWriter writer = new StreamWriter(filename)) //(i got this code from youtube after my code was showing some errors C#learning for beginners)
         {
             foreach (var entry in Entries)
             {
