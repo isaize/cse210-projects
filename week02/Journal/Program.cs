@@ -32,7 +32,7 @@ class Program
             else if (choice == "3")
             {
                 Console.Write("Enter filename to save: ");
-                string saveFilename = Console.ReadLine(); // Get filename
+                string saveFilename = Console.ReadLine(); // Get filename,
                 journal.SaveToFile(saveFilename); // Save entries to file
             }
             else if (choice == "4")
