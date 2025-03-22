@@ -39,7 +39,7 @@ class Program
             {
                 Console.Write("Enter filename to load: ");
                 string loadFilename = Console.ReadLine(); // Get filename
-                journal.LoadFromFile(loadFilename); // Load entries from file
+                journal.LoadFromFile(loadFilename); // Load entries from file,
             }
             else if (choice == "5")
             {

@@ -32,7 +32,7 @@ public class Journal
 
     public void SaveToFile(string filename)
     {
-        using (StreamWriter writer = new StreamWriter(filename)) //(i got this code from youtube after my code was showing some errors C#learning for beginners)
+        using (StreamWriter writer = new StreamWriter(filename)) //(i got this code from youtube, after my code was showing some errors C#learning for beginners)
         {
             foreach (var entry in Entries)
             {

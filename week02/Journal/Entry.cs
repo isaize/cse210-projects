@@ -9,7 +9,7 @@ public class Entry
     public Entry(string prompt, string response)
     {
         Prompt = prompt; // Set the Prompt field
-        Response = response; // Set the Response field
+        Response = response; // Set the Response field,
         Date = DateTime.Now.ToString("yyyy-MM-dd"); // Set the Date field
     }
 
